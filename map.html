@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта</title>
+    <link rel="stylesheet" href="styles/normalise.css">    
+</head>
+<body>
+    <div id="map" style="display: flex; flex-basis: 100%; height: 800px; margin: 0 auto; padding: 20px"></div>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU"></script>
+    <script>
+        ymaps.ready(init);
+        function init(){            
+            var myMap = new ymaps.Map("map", {
+                center: [55.669005569081406, 37.409657499999916],
+                zoom: 10
+            });
+
+            var myGeoObject = new ymaps.GeoObject({
+                geometry: {
+                    type: "Point",
+                    coordinates: [55.669005569081406, 37.409657499999916]                    
+                }
+            });
+
+            myMap.geoObjects.add(myGeoObject);            
+        }
+    </script>   
+</body>
+</html>
