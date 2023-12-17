@@ -19,22 +19,22 @@
             <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item">
-                        <a href="#" aria-label="Возможности приложения Slate" class="header__link">
+                        <a href="#scope" aria-label="Возможности приложения Slate" class="header__link">
                             Возможности
                         </a>
                     </li>
                     <li class="header__item">
-                        <a href="#" aria-label="Расширения" class="header__link">
+                        <a href="#extension" aria-label="Расширения" class="header__link">
                             Расширения
                         </a>
                     </li>
                     <li class="header__item">
-                        <a href="#" aria-label="Галерея" class="header__link">
+                        <a href="#gallery" aria-label="Галерея" class="header__link">
                             Галерея
                         </a>
                     </li>
                     <li class="header__item">
-                        <a href="#" aria-label="Отзывы" class="header__link">
+                        <a href="#reviews" aria-label="Отзывы" class="header__link">
                             Отзывы
                         </a>
                     </li>
@@ -56,7 +56,7 @@
                     Большинство календарей предназначены для команд. Slate предназначен для фрилансеров, которым нужен удобный способ планировать свой график.
                 </p>                        
                 <div class="hero__buttons">
-                    <button aria-label="Попробовать бесплатно" class="hero__btn hero__btn_active btn__active">
+                    <button aria-label="Попробовать бесплатно" class="hero__btn hero__btn_active">
                         Попробовать бесплатно
                     </button>
                     <button aria-label="Узнать больше" class="hero__btn">
@@ -67,7 +67,7 @@
             </div>
         </section>
 
-        <section class="scope">
+        <section id="scope" class="scope">
             <div class="scope__container container">
                 <h2 class="scope__title title">
                     Возможности
@@ -77,15 +77,15 @@
                 </p>
                 <div class="scope__content">
                     <div class="scope__bg">
-                        <div class="scope__bg-second"></div>
-                    </div>
+                        <img src="imges/Chat-Bot.png" alt="" class="scope__bg-img"> 
+                    </div>                                       
                     <ul class="scope__list">
                         <li class="scope__item">
                             <div class="scope__icon-title">
                                 <span class="scope__icon scope__icon_tips"></span>                            
-                                <h4 class="scope__title-mini">
+                                <h3 class="scope__title-mini">
                                     Полезные подсказки
-                                </h4>
+                                </h3>
                             </div>                            
                             <p class="scope__desc-mini desc">
                                 Когда вы добавите задачу в свой календарь, Slate предложит полезную информацию.
@@ -94,9 +94,9 @@
                         <li class="scope__item">
                             <div class="scope__icon-title">
                                 <span class="scope__icon scope__icon_interface"></span>                                
-                                <h4 class="scope__title-mini">
+                                <h3 class="scope__title-mini">
                                     Умный интерфейс
-                                </h4>
+                                </h3>
                             </div>                            
                             <p class="scope__desc-mini desc">
                                 Интерфейс приложения автоматически подстраивается под вашу текущую задачу.
@@ -105,9 +105,9 @@
                         <li class="scope__item">
                             <div class="scope__icon-title">
                                 <span class="scope__icon scope__icon_synch"></span>  
-                                <h4 class="scope__title-mini">
+                                <h3 class="scope__title-mini">
                                     Синхронизация
-                                </h4>
+                                </h3>
                             </div>                            
                             <p class="scope__desc-mini desc">
                                 Slate синхронизируется со всеми вашими календарями.
@@ -118,7 +118,7 @@
             </div>
         </section>
 
-        <section class="extension">
+        <section id="extension" class="extension">
             <div class="extension__container container">                
                 <h2 class="extension__title title">
                     Расширения
@@ -129,28 +129,28 @@
                 <ul class="extension__list">
                     <li class="extension__item extension__item_padding">
                         <div class="extension__top-item">
-                            <h4 class="extension__title-mini">
+                            <h3 class="extension__title-mini">
                                 Работа под защитой
-                            </h4>
+                            </h3>
                             <p class="extension__desc-mini desc">
                                 Вы когда-нибудь задумывались, хорошо ли защищён ваш рабочий аккаунт? Slate Safe поможет вам с этим.
                             </p>
                         </div>                        
-                        <button aria-label="Скачать Slate Safe" class="extension__btn btn__active btn__active_border">
+                        <button aria-label="Скачать Slate Safe" class="extension__btn">
                             Скачать
                         </button>
                         <div class="extension__bg extension__bg_left"></div>                        
                     </li>
                     <li class="extension__item extension__item_gap">
                         <div class="extension__top-item">
-                            <h4 class="extension__title-mini">
+                            <h3 class="extension__title-mini">
                                 <b>Slate</b> не конкурирует, а дружит со своими "коллегами"
-                            </h4>
+                            </h3>
                             <p class="extension__desc-mini desc">
                                 Свяжите задачи в Slate Connect с задачами в других системах планирования проектов.
                             </p>                              
                         </div>
-                        <button aria-label="Попробовать бесплатно" class="extension__btn btn__active btn__active_border">
+                        <button aria-label="Попробовать бесплатно" class="extension__btn">
                             Попробовать бесплатно
                         </button>
                         <div class="extension__bg extension__bg_right"></div>                     
@@ -159,7 +159,7 @@
             </div>            
         </section>
 
-        <section class="gallery">
+        <section id="gallery" class="gallery">
             <div class="gallery__container container">
                 <h2 class="gallery__title title">
                     Галерея
@@ -208,7 +208,7 @@
                                 </g>
                                 <defs>
                                 <linearGradient id="paint0_linear_62_2726" x1="30.5168" y1="0.273438" x2="30.5168" y2="60.2734" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#17C9FB"/>
+                                <stop offset="0" stop-color="#17C9FB"/>
                                 <stop offset="1" stop-color="#1A74E8"/>
                                 </linearGradient>
                                 <clipPath id="clip0_62_2726">
@@ -234,7 +234,7 @@
                                 </g>
                                 <defs>
                                   <linearGradient id="paint0_linear_62_2729" x1="60.3623" y1="13.8806" x2="0.516846" y2="13.8806" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#37BDA6"/>
+                                    <stop offset="0" stop-color="#37BDA6"/>
                                     <stop offset="1" stop-color="#8AD3B8"/>
                                   </linearGradient>
                                   <linearGradient id="paint1_linear_62_2729" x1="60.3623" y1="35.4747" x2="0.516846" y2="35.4747" gradientUnits="userSpaceOnUse">
@@ -242,7 +242,7 @@
                                     <stop offset="1" stop-color="#78BBC1"/>
                                   </linearGradient>
                                   <linearGradient id="paint2_linear_62_2729" x1="30.4394" y1="35.4747" x2="60.3619" y2="35.4747" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#4379A7"/>
+                                    <stop offset="0" stop-color="#4379A7"/>
                                     <stop offset="1" stop-color="#7CC9B8"/>
                                   </linearGradient>
                                   <clipPath id="clip0_62_2729">
@@ -321,7 +321,7 @@
             </div>            
         </section>
 
-        <section class="reviews">
+        <section id="reviews" class="reviews">
             <div class="reviews__container container">
                 <h2 class="reviews__title title">
                     Отзывы
@@ -331,65 +331,65 @@
                         <div class="reviews__customer">                            
                             <img src="imges/Customer1.png" alt="" class="reviews__img">
                             <div class="reviews__name-prof">
-                                <div class="reviews__name">
+                                <span class="reviews__name">
                                     Алёна Романова
-                                </div>
-                                <div class="reviews__prof">
+                                </span>
+                                <span class="reviews__prof">
                                     Дизайнер
-                                </div>
+                                </span>
                             </div>                        
                         </div>
-                        <div class="reviews__desc">
+                        <p class="reviews__desc">
                             Slate поможет вам узнать, сколько еще дней нужно работать, чтобы достичь своей финансовой цели на месяц и год. А расширение защиты позаботится о безопасности данных.
-                        </div>
+                        </p>
                     </li>
                     <li class="reviews__item">
                         <div class="reviews__customer">                            
                             <img src="imges/Customer2.png" alt="" class="reviews__img">
                             <div class="reviews__name-prof">
-                                <div class="reviews__name">
+                                <span class="reviews__name">
                                     Евгений Титов
-                                </div>
-                                <div class="reviews__prof">
+                                </span>
+                                <span class="reviews__prof">
                                     Инженер
-                                </div>
+                                </span>
                             </div>                        
                         </div>
-                        <div class="reviews__desc">
+                        <p class="reviews__desc">
                             Я в восторге от этого приложения! Оно является удобным инструментом в моей обычной работе дизайнера. Интерфейс приложения прост, что делает работу в нем более эффективной.
-                        </div>
+                        </p>
                     </li>
                     <li class="reviews__item">
                         <div class="reviews__customer">                            
                             <img src="imges/Customer3.png" alt="" class="reviews__img">
                             <div class="reviews__name-prof">
-                                <div class="reviews__name">
+                                <span class="reviews__name">
                                     Роман Васильев
-                                </div>
-                                <div class="reviews__prof">
+                                </span>
+                                <span class="reviews__prof">
                                     Дизайнер
-                                </div>
+                                </span>
                             </div>                        
                         </div>
-                        <div class="reviews__desc">
+                        <p class="reviews__desc">
                             Приложение – настоящий подарок для инженеров! Оно предоставляет впечатляющий набор инструментов, который существенно упрощает и оптимизирует нашу работу.
-                        </div>
+                        </p>
                     </li>
                     <li class="reviews__item">
                         <div class="reviews__customer">                            
                             <img src="imges/Customer4.png" alt="" class="reviews__img">
                             <div class="reviews__name-prof">
-                                <div class="reviews__name">
+                                <span class="reviews__name">
                                     Лиза Ковалёва
-                                </div>
-                                <div class="reviews__prof">
+                                </span>
+                                <span class="reviews__prof">
                                     Копирайтер
-                                </div>
+                                </span>
                             </div>                        
                         </div>
-                        <div class="reviews__desc">
+                        <p class="reviews__desc">
                             Это приложение стало настоящим спасением для меня, как для копирайтера. Оно умело сочетает все необходимые инструменты для творческого процесса, делая мою работу более удобной.
-                        </div>
+                        </p>
                     </li>
                 </ul>
             </div>            
@@ -400,28 +400,28 @@
         <div class="footer__container container">            
             <div class="footer__left">
                 <div class="footer__block">
-                    <h4 class="footer__title">
+                    <h3 class="footer__title">
                         Основное
-                    </h4>
+                    </h3>
                     <nav class="footer__nav">
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a href="#" aria-label="Возможности" class="footer__link">
+                                <a href="#scope" aria-label="Возможности" class="footer__link">
                                     Возможности
                                 </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#" aria-label="Расширения" class="footer__link">
+                                <a href="#extension" aria-label="Расширения" class="footer__link">
                                     Расширения
                                 </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#" aria-label="Галерея" class="footer__link">
+                                <a href="#gallery" aria-label="Галерея" class="footer__link">
                                     Галерея
                                 </a>
                             </li>
                             <li class="footer__item">
-                                <a href="#" aria-label="Отзывы" class="footer__link">
+                                <a href="#reviews" aria-label="Отзывы" class="footer__link">
                                     Отзывы
                                 </a>
                             </li>
@@ -429,9 +429,9 @@
                     </nav>                    
                 </div>
                 <div class="footer__block">
-                    <h4 class="footer__title">
+                    <h3 class="footer__title">
                         Ресурсы
-                    </h4>
+                    </h3>
                     <nav class="footer__nav">
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -458,9 +458,9 @@
                     </nav>                    
                 </div>
                 <div class="footer__block">
-                    <h4 class="footer__title title-mini">
+                    <h3 class="footer__title">
                         Мы
-                    </h4>
+                    </h3>
                     <nav class="footer__nav">
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -492,7 +492,7 @@
                             </svg>
                         </span> 
                         <div class="footer__map">
-                            <a href="map.html" target="_blank" class="footer__map-link">
+                            <a href="https://yandex.ru/maps/?ll=37.409657499999916,55.669005569081406&z=10&pt=37.409657499999916,55.669005569081406" target="_blank" aria-label="Показать адрес ул. Московская, д 1 на Яндекс карте" class="footer__map-link">
                                 ул. Московская, д 1.
                             </a>                            
                         </div>                    
@@ -504,7 +504,7 @@
                             </svg>
                         </span>
                         <div class="footer__tel">
-                            <a href="tel:+79414323211" class="footer__tel-link">
+                            <a href="tel:+79414323211" aria-label="Позвонить по номеру +79414323211" class="footer__tel-link">
                                 +7 (941) 432-32-11
                             </a>                            
                         </div>
