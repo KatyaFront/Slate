@@ -140,27 +140,17 @@
         margin-bottom: 211px;
     }
 
-    .gallery__list-second {
+    .gallery__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .gallery__list_none {
         display: none;
     }
-
-    .gallery__list-first {        
-        -ms-grid-columns: 329px;        
-        grid-template-columns: 329px;        
-    }
-
-    .gallery__item_2 {
-        background-image: url(../imges/Rectangle8.png);
-    }
-    
-    .gallery__item_3 {
-        background-image: url(../imges/Rectangle9.png);
-    }
-    
-    .gallery__item_4 {
-        background-image: url(../imges/Rectangle10.png);
-    }  
-    
+       
     /* partners */
     .partners__container {    
         margin-bottom: 211px;
@@ -224,11 +214,11 @@
     }
 
     /* footer */
-    .footer__container {        
+    .footer__center {        
         -ms-grid-columns: 1fr;        
         grid-template-columns: 1fr; 
-        gap: 75px;              
-        max-width: 378px;         
+        gap: 75px;        
+        max-width: 378px;             
     }
 
     .footer__left {        
@@ -262,7 +252,7 @@
     /* extension */
     .extension__bg_left {        
         height: 175px;        
-    }
+    }   
 }
 
 @media (max-width: 375px) {
@@ -341,13 +331,7 @@
     
     .extension__bg_right {        
         height: 200px;        
-    }
-
-    /* gallery */
-    .gallery__list-first {        
-        -ms-grid-columns: 280px;        
-        grid-template-columns: 280px;        
-    }
+    }    
 
     /* partners */
     .partners__list {        
@@ -370,5 +354,5 @@
 
     .reviews__desc {
         font-size: 14px;        
-    }
+    }     
 }
