@@ -188,7 +188,7 @@ button:active {
 }
 
 /* header */
-.header__container {
+.header__container {    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -203,6 +203,56 @@ button:active {
     max-width: 1097px;    
     padding: 34px 40px; 
     margin-bottom: 95px;       
+}
+
+.header__burger-btn {
+    display: none;
+    position: relative;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;    
+}
+
+.header__burger-span {
+    position: absolute;
+    left: 5px;  
+    width: 30px;
+    height: 3px;
+    background-color: var(--white);
+    -webkit-transition: opacity.5s, background-color .5s, -webkit-transform .5s;
+    transition: opacity.5s, background-color .5s, -webkit-transform .5s;
+    -o-transition: transform .5s, opacity.5s, background-color .5s;
+    transition: transform .5s, opacity.5s, background-color .5s;
+    transition: transform .5s, opacity.5s, background-color .5s, -webkit-transform .5s;
+}
+
+.header__burger-span:nth-child(1) {
+    -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+}
+
+.header__burger-span:nth-child(3) {
+    -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+            transform: translateY(10px);
+}
+
+.header.open .header__burger-span:nth-child(2) {
+    opacity: 0;
+}
+
+.header.open .header__burger-span:nth-child(1) {
+    -webkit-transform: translateY(0) rotate(45deg);
+        -ms-transform: translateY(0) rotate(45deg);
+            transform: translateY(0) rotate(45deg);
+}
+
+.header.open .header__burger-span:nth-child(3) {
+    -webkit-transform: translateY(0) rotate(-45deg);
+        -ms-transform: translateY(0) rotate(-45deg);
+            transform: translateY(0) rotate(-45deg);
 }
 
 .header__logo {
@@ -228,7 +278,7 @@ button:active {
 
 .header__img {
     width: 142px;
-    height: 40px;
+    height: 40px;    
 }
 
 .header__list {
@@ -350,7 +400,7 @@ button:active {
 }
 
 .scope__desc {    
-    margin-bottom: 80px;
+    margin-bottom: 54px;
     max-width: 795px;    
 }
 
